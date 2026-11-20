@@ -1,0 +1,8 @@
+- name: demo on ping
+  hosts: local
+  connection: local
+
+  tasks: 
+  - name: print Hello world
+    ansible.builtin.debug: 
+      msg: " Hello Welcome to ansible programmin"
